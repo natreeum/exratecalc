@@ -1,0 +1,25 @@
+{
+  "name": "exratecalc",
+  "version": "0.0.6",
+  "description": "Get token exchange rate from V2 or V3 LP Contract which is using uniswap interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "uniswap",
+    "price",
+    "klayswap",
+    "uniswap_v2",
+    "uniswap_v3",
+    "v2",
+    "v3",
+    "token",
+    "exchangerate"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.7.1"
+  }
+}
