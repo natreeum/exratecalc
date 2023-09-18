@@ -49,5 +49,5 @@ calculator
 
 --- 
 
-[![CREDER](https://github.com/natreeum/exratecalc/assets/100063828/7ab52868-9718-4a36-a944-f94edc5b6e77)](https://www.creder.biz)
+[![CREDER](https://www.creder.biz/assets/images/logo-title-footer.png)](https://www.creder.biz)
 
