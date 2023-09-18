@@ -41,3 +41,13 @@ calculator
   .v3("0x21ecdfb99772b10fb913a6f4658a9f97185c82be", "ksp")
   .then(console.log); // 0.4706124510348447
 ```
+
+# Contributors
+[![Contributors](https://img.shields.io/github/contributors/natreeum/exratecalc)](https://github.com/natreeum/exratecalc/graphs/contributors)
+- [natreeum](https://github.com/natreeum)
+
+
+--- 
+
+[![CREDER](https://github.com/natreeum/exratecalc/assets/100063828/7ab52868-9718-4a36-a944-f94edc5b6e77)](https://www.creder.biz)
+
