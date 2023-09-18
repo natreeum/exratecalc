@@ -18,8 +18,12 @@
     "exchangerate"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "ethers": "^6.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natreeum/exratecalc"
   }
 }
