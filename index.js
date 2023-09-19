@@ -73,21 +73,31 @@ module.exports = class {
 
     const poolData = await v2Contract.getPoolData(v2LPContract);
     const { tokenA, tokenB, reserveA, reserveB } = poolData;
+    let tokenADecimals, tokenASymbol, tokenBDecimals;
 
-    const tokenAContract = new ethers.Contract(
-      tokenA,
-      tokenMinimalABI,
-      this.provider
-    );
-    const tokenBContract = new ethers.Contract(
-      tokenB,
-      tokenMinimalABI,
-      this.provider
-    );
+    if (tokenA == "0x0000000000000000000000000000000000000000") {
+      tokenADecimals = 18;
+      tokenASymbol = "klay";
+    } else {
+      const tokenAContract = new ethers.Contract(
+        tokenA,
+        tokenMinimalABI,
+        this.provider
+      );
+      tokenADecimals = Number(await tokenAContract.decimals());
+      tokenASymbol = await tokenAContract.symbol();
+    }
 
-    const tokenADecimals = Number(await tokenAContract.decimals());
-    const tokenASymbol = await tokenAContract.symbol();
-    const tokenBDecimals = Number(await tokenBContract.decimals());
+    if (tokenB == "0x0000000000000000000000000000000000000000") {
+      tokenBDecimals = 18;
+    } else {
+      const tokenBContract = new ethers.Contract(
+        tokenB,
+        tokenMinimalABI,
+        this.provider
+      );
+      tokenBDecimals = Number(await tokenBContract.decimals());
+    }
 
     const tokenAAmount = Number(reserveA) / 10 ** tokenADecimals;
     const tokenBAmount = Number(reserveB) / 10 ** tokenBDecimals;

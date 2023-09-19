@@ -1,6 +1,6 @@
 {
   "name": "exratecalc",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Get token exchange rate from Klayswap V2 or V3 LP Contract",
   "main": "index.js",
   "scripts": {
