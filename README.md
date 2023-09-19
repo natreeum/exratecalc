@@ -1,6 +1,6 @@
 # exratecalc
 
-Get token exchange rate from V2 or V3 LP Contract which is using uniswap interface
+Get token exchange rate from Klayswap V2 or V3 LP Contract
 
 # Install
 
@@ -43,11 +43,11 @@ calculator
 ```
 
 # Contributors
+
 [![Contributors](https://img.shields.io/github/contributors/natreeum/exratecalc)](https://github.com/natreeum/exratecalc/graphs/contributors)
+
 - [natreeum](https://github.com/natreeum)
 
+---
 
---- 
-
-[![CREDER](https://www.creder.biz/assets/images/logo-title-footer.png)](https://www.creder.biz)
-
+[![CREDER](https://www.creder.biz/assets/images/logo-title-footer2.png)](https://www.creder.biz)

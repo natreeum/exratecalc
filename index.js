@@ -57,7 +57,7 @@ const v3MinimalABI = [
   "function token1() external view returns (address)",
 ];
 
-module.exports = class priceFinder {
+module.exports = class {
   constructor(rpcURL) {
     this.provider = new ethers.JsonRpcProvider(rpcURL);
   }

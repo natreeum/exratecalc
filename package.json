@@ -1,7 +1,7 @@
 {
   "name": "exratecalc",
-  "version": "0.0.7",
-  "description": "Get token exchange rate from V2 or V3 LP Contract which is using uniswap interface",
+  "version": "0.0.8",
+  "description": "Get token exchange rate from Klayswap V2 or V3 LP Contract",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
